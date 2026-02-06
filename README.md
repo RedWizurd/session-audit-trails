@@ -27,6 +27,13 @@ python3 audit_runner.py --session-id demo-001
 python3 replay.py --log ./session_memory.jsonl --session-id demo-001
 ```
 
+## Usage
+```bash
+make setup
+make check
+make run
+```
+
 ## Roadmap
 - Add tamper-evident hash chaining for event streams.
 - Add event compaction and archival rotation strategy.
